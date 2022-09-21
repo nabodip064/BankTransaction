@@ -36,7 +36,6 @@ namespace BankTransaction.Repository.Class
         public void Deposit(Amount amount)
         {
             _TransactionHistory.Add(amount);
-            //Console.WriteLine("Your Deposit is success\n");
         }
 
         public void Withdraw(Amount amount)
